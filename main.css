@@ -1,0 +1,77 @@
+.btns{
+width: 4cm;
+height: 1.4cm;
+background-color: aqua;
+border: none;
+border-radius: 0.25rem;
+float: left;}
+.cart{
+width: 10cm;
+height: 5cm;
+border: 1px solid black;
+float: left;
+margin-left: 350px;
+
+}
+i{
+font-size: 20px;
+transition: 0.5s;}
+i:hover{
+    color: rgb(35, 39, 245);
+}
+
+.close{
+background-color: #6c757d;
+border-radius: 0.25rem;
+height: 1.2cm;
+color: white;}
+.save{
+    height: 1.2cm;
+    border-radius: 0.25rem;
+    color: white;
+background-color: #0d6efd;}
+
+
+@media screen and (min-width:920px) {
+
+ .width{
+width: 900px;
+height: 10vh;
+
+
+background-color: #0d6efd;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.ul .li{
+list-style: none;
+display: inline;
+transition: 0.5s;
+
+padding-left: 25px;}
+ul li:hover{
+color: red;}   
+}
+@media screen and(min-width:960px)and(max-width:1319px) {
+    .width{
+        width: 940px;
+        height: 10vh;
+        
+        
+        background-color: #0d6efd;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .ul .li{
+        list-style: none;
+        display: inline;
+        transition: 0.5s;
+        
+        padding-left: 25px;}
+        ul li:hover{
+        color: rgb(89, 0, 255);}  
+}
